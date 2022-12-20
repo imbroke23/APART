@@ -1,0 +1,75 @@
+
+  body {
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff; /* Set the text color of headings to white */
+  }
+  
+  p {
+    color: #ccc; /* Set the text color of paragraphs to a light gray color */
+  }
+
+ 
+  
+  nav {
+    position: relative; /* Set the position of the nav bar to relative */
+    z-index: 1; /* Set the z-index to a higher value than the image to ensure that the nav bar appears on top of the image */
+    border: 1px solid #333; /* Add a 1px solid black border */
+    border-radius: 10px; /* Round the corners of the nav bar with a 30px border radius */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), /* Add a box shadow */
+                0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Add another box shadow with a larger spread and a different color */
+ }
+  
+  nav ul {
+    list-style-type: none; /* Remove the bullets from the list */
+    margin: 0; /* Remove the default margin */
+    padding: 0; /* Remove the default padding */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  nav li {
+    float: left; /* Float the list items to the left */
+  }
+  
+  nav a {
+    border-right: none;
+    display: block; /* Display the links as block elements */
+    color: #fff; /* Set the text color to white */
+    text-align: center; /* Align the text to the center */
+    padding: 14px 16px; /* Add some padding to the links */
+    text-decoration: none; /* Remove the default text decoration */
+    
+  }
+
+  nav a:last-of-type {
+    border-radius: 5% 0 0 5%; /* Create a rounded corner on the right side of the link */
+    /* Other styles for the nav a element */
+  }
+
+  
+  
+  nav a:hover {
+    color: #00000054; /* Change the text color on hover */
+    transition: all 0.3s; /* Add a smooth transition effect */
+  }
+  
+  #image {
+    display: block; /* Display the image as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    clear: both; /* Clear any floating elements */
+  }
+  
+  #image img {
+    display: block; /* Display the image as a block element */
+    float: right; /* Float the image to the right */
+    margin: 0; /* Remove the default margin */
+    padding: 0; /* Remove the default padding */
+  }
+  

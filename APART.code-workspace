@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "ArtPieces"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "APART",
+		"liveServer.settings.port": 5501
+	}
+}
