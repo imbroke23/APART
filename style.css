@@ -94,10 +94,27 @@
   }
   
   .dropdown-menu-1 {
+    max-height: 663px;  /* Set the maximum height of the dropdown list */
+    overflow-y: auto;   /* Make the list scrollable if it exceeds the maximum height */
+    display: none;
+  }
+  .dropdown-menu-2 {
+    position: absolute;
+    top: 0;
+    left: 150px; /* Set this to the width of dropdown menu 1 */
     max-height: 670px;  /* Set the maximum height of the dropdown list */
     overflow-y: auto;   /* Make the list scrollable if it exceeds the maximum height */
     display: none;
   }
+  .dropdown-menu ul li:hover .dropdown-menu-2 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: -45;
+    background-color: var(--color-black);
+  }
+  
+  
   
   .dropdown-menu ul li:hover .dropdown-menu-1 {
     display: block;
@@ -106,9 +123,25 @@
     top: 0;
     background-color: var(--color-black);
   }
+  .dropdown-menu-3 {
+    position: absolute;
+    top: 0;
+    left: 150px; /* Set this to the width of dropdown menu 1 */
+    max-height: 670px;  /* Set the maximum height of the dropdown list */
+    overflow-y: auto;   /* Make the list scrollable if it exceeds the maximum height */
+    display: none;
+  }
+  .dropdown-menu ul li:hover .dropdown-menu-3 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: -70;
+    background-color: var(--color-black);
+  }
   
   .hero {
     height: calc(100vh - 80px);
     background-image: url(./hero.jpeg);
     background-position: center;
   }
+  
