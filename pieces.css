@@ -8,8 +8,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #fff; /* Set the text color of headings to white */
+  color: #ffffff; /* Set the text color of headings to white */
   clear: right;
+  font-size: 15px;
+
 }
 
 p {

@@ -247,7 +247,7 @@
   
   .mona {
     height: calc(100vh - 80px);
-    background-image: url(./hero.jpeg);
+    background-image: url(./base.jpeg);
     background-position: center;
   }
   
